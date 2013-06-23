@@ -1,0 +1,5 @@
+NOTES
+
+Possible to export multiple keys, but you can't import multiple keys?
+How can I sign keys using the UI?
+Why do I have a *lot* of certificates under Root CA Certificates even though I don't use encryption at all?
