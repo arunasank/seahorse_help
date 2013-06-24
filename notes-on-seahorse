@@ -1,5 +1,8 @@
 NOTES
 
-Possible to export multiple keys, but you can't import multiple keys?
-How can I sign keys using the UI?
-Why do I have a *lot* of certificates under Root CA Certificates even though I don't use encryption at all?
+1)Possible to export multiple keys, but you can't import multiple keys?
+2)How can I sign keys using the UI?
+3)Why do I have a *lot* of certificates under Root CA Certificates even though I don't use encryption at all?
+4)Error Message: General Error, cannot generate PGP Key generated. the problem was with me having set an expiration date of less than one. This error message should be changed to something more readable.
+5)Does each key automatically get certified?
+6)Why are 2 subkeys created for each master key?
