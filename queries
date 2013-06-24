@@ -1,0 +1,22 @@
+NOTES
+
+
+1)Possible to export multiple keys, but you can't import multiple keys? *bug*
+
+2)How can I sign keys using the UI? *figured*
+
+3)Why do I have a *lot* of certificates under Root CA Certificates even though
+I don't use encryption at all? *Read up RootCA certificates*
+
+4)Error Message: General Error, cannot generate PGP Key generated. the problem
+was with me having set an expiration date of less than one. This error message
+should be changed to something more readable. *bug*
+
+5)Does each key automatically get certified? *no*
+
+6)Why are 2 subkeys created for each master key? *one subkey is the master
+key*
+
+7)What's Root2 Key Storage for? *It might be for storing X.509 certificates
+for SSL and other things... I think there's a PKCS#11 module that programs like
+Firefox can use(grawity on gnome-hackers)*
