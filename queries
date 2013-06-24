@@ -20,3 +20,9 @@ key*
 7)What's Root2 Key Storage for? *It might be for storing X.509 certificates
 for SSL and other things... I think there's a PKCS#11 module that programs like
 Firefox can use(grawity on gnome-hackers)*
+
+8)Subkeys not seen when key is Sign only(DSA Sign only in my case). Verify
+for the other sign only key(RSA sign only)
+
+9)How to add photos to Sign only keys(DSA Sign only in my case)? Verify
+for the other sign only key(RSA sign only).
