@@ -12,7 +12,8 @@ I don't use encryption at all? *Read up RootCA certificates*
 was with me having set an expiration date of less than one. This error message
 should be changed to something more readable. *bug*
 
-5)Does each key automatically get certified? *no*
+5)Bug, when you try to add more than one key, seahorse hangs. Is
+it just me?(I tried this 5 times and it was the same every time).
 
 6)Why are 2 subkeys created for each master key? *one subkey is the master
 key*
